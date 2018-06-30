@@ -26,3 +26,14 @@ x.attr
 =(x==3)()
 
 =1() //while true
+
+//try catch finally --------------------------------------
+!(
+num=1/0
+):(5,ex)(
+$log(ex)
+):(3,ex)(
+$log(ex)
+):f(
+$log("finally")
+)
